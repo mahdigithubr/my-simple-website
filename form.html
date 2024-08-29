@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/form.css" />
+    <title>This is my login website</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 15px;
+      }
+      textarea {
+        display: block;
+      }
+
+      .inline {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Please fill up the Form</h2>
+    <form>
+      <label for="name">
+        Your Name:<input type="text" id="name" name="name"
+      /></label>
+      <label for="email">
+        Your Email: <input type="email" id="email" name="email"
+      /></label>
+      <label for="password"
+        >Set Password: <input type="password" id="password" name="password"
+      /></label>
+      <fieldset>
+        <legend>Or login with</legend>
+        <label for="google"
+          ><input type="radio" name="account" id="google" />Google</label
+        >
+        <label for="github"
+          ><input type="radio" name="account" id="github" />GitHub</label
+        >
+        <label for="google"
+          ><input type="radio" name="account" id="google" />Linkedin</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>your choice</legend>
+        <label for="web"
+          ><input type="radio" name="choice" id="web" />WebDevelopment</label
+        >
+        <label for="app"
+          ><input type="radio" name="choice" id="app" />AppDevelopment</label
+        >
+        <label for="machine"
+          ><input type="radio" name="choice" id="machine" />machine
+          Learning</label
+        >
+        <label class="inline" for="submit"
+          ><input type="submit" name="" id="submit" class="inline"
+        /></label>
+        <label class="inline" for="submit"
+          ><input type="reset" name="" id="reset" class="inline"
+        /></label>
+      </fieldset>
+    </form>
+  </body>
+</html>
